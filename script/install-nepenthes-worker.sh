@@ -88,7 +88,7 @@ chmod 0777 log
 cp config/auth.yml.example config/auth.yml
 
 echo -e "\n[*] Installing Bundler"
-gem install --no-rdoc --no-ri bundler
+gem install --no-rdoc --no-ri bundler -v 1.17.3
 
 echo -e "\n[*] Installing Nepenthes' required gems"
 bundle install --without local
