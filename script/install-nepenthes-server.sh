@@ -68,7 +68,7 @@ git clone https://github.com/aschmitz/nepenthes.git
 cd nepenthes
 
 echo -e "\n[*] Installing Bundler"
-gem install --no-rdoc --no-ri bundler
+gem install --no-rdoc --no-ri bundler -v 1.17.3
 
 echo -e "\n[*] Installing Nepenthes' required gems"
 bundle install --without remote
